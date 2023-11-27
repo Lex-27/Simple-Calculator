@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(blue, cyan);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h1{
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 50px;
+    cursor:default;
+    color: rgb(0, 140, 255);
+    text-shadow: -1px -1px 4px rgb(0, 7, 77);
+}
+h1:hover{
+    text-shadow:  0 0 15px rgb(1, 12, 141),  0px 0px 25px rgb(1, 12, 141);
+    animation: glow 1.5 linear infinite;
+}
+@keyframes glow{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.container {
+    background-color: rgb(0, 115, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px auto;
+    max-height: 350px;
+    height: 350px;
+    width: 290px;
+    max-width: 290px;
+    border: solid 3px whitesmoke;
+}
+
+.screen {
+    position: relative;
+    margin:auto;
+    width: 240px;
+    height: 55px;
+    max-width: 240px;
+    max-height: 55px;
+    background-color: white;
+    padding: 1px 10px;
+    text-align: right;
+    align-items: center;
+    justify-content: end;
+    font-size: larger;
+    line-height: 50px;
+}
+
+.cont {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    max-height: 50px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(211, 217, 223);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: normal;
+}
+
+.grow {
+    width: 120px;
+}
+
+.reset {
+    background-color: rgb(177, 51, 51);
+}
+
+.reset:hover {
+    background-color: rgb(152, 44, 44);
+}
+
+.back {
+    background-color: rgb(255, 81, 81);
+}
+
+.back:hover {
+    background-color: rgb(227, 73, 73);
+}
+
+.btnOP {
+    background-color: rgb(0, 255, 170);
+}
+
+.btnOP:hover {
+    background-color: rgb(2, 212, 142);
+}
+
+.btnequal {
+    background-color: greenyellow;
+}
+
+.btnequal:hover {
+    background-color: rgb(148, 220, 40);
+}
